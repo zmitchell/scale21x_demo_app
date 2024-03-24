@@ -1,0 +1,93 @@
+{
+  "lockfile-version": 0,
+  "manifest": {
+    "hook": {},
+    "install": {
+      "nodejs": {
+        "pkg-path": "nodejs"
+      }
+    },
+    "options": {
+      "systems": [
+        "aarch64-linux"
+      ]
+    },
+    "registry": {
+      "defaults": {
+        "subtrees": null
+      },
+      "inputs": {
+        "nixpkgs": {
+          "from": {
+            "owner": "NixOS",
+            "ref": "release-23.11",
+            "repo": "nixpkgs",
+            "type": "github"
+          },
+          "subtrees": [
+            "legacyPackages"
+          ]
+        }
+      },
+      "priority": [
+        "nixpkgs"
+      ]
+    },
+    "vars": {}
+  },
+  "packages": {
+    "aarch64-linux": {
+      "nodejs": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-linux",
+          "nodejs"
+        ],
+        "info": {
+          "broken": false,
+          "description": "Event-driven I/O framework for the V8 JavaScript engine",
+          "license": "MIT",
+          "pname": "nodejs",
+          "unfree": false,
+          "version": "18.18.2"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1706373441,
+            "narHash": "sha256-S1hbgNbVYhuY2L05OANWqmRzj4cElcbLuIkXTb69xkk=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "56911ef3403a9318b7621ce745f5452fb9ef6867",
+            "type": "github"
+          },
+          "fingerprint": "9ce412a538ee7fd762345747a283a88dd226c8e9aef8fbd18cda4a0d501444a7",
+          "url": "github:NixOS/nixpkgs/56911ef3403a9318b7621ce745f5452fb9ef6867"
+        },
+        "priority": 5
+      }
+    }
+  },
+  "registry": {
+    "defaults": {
+      "subtrees": null
+    },
+    "inputs": {
+      "nixpkgs": {
+        "from": {
+          "lastModified": 1706373441,
+          "narHash": "sha256-S1hbgNbVYhuY2L05OANWqmRzj4cElcbLuIkXTb69xkk=",
+          "owner": "NixOS",
+          "repo": "nixpkgs",
+          "rev": "56911ef3403a9318b7621ce745f5452fb9ef6867",
+          "type": "github"
+        },
+        "subtrees": [
+          "legacyPackages"
+        ]
+      }
+    },
+    "priority": [
+      "nixpkgs"
+    ]
+  }
+}

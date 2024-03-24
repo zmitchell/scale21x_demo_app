@@ -1,0 +1,186 @@
+{
+  "lockfile-version": 0,
+  "manifest": {
+    "hook": {},
+    "install": {
+      "clang": {
+        "pkg-path": "clang"
+      },
+      "diesel-cli": {
+        "pkg-path": "diesel-cli"
+      },
+      "diesel-cli-ext": {
+        "pkg-path": "diesel-cli-ext"
+      },
+      "sqlite": {
+        "pkg-path": "sqlite"
+      }
+    },
+    "options": {
+      "systems": [
+        "aarch64-linux"
+      ]
+    },
+    "registry": {
+      "defaults": {
+        "subtrees": null
+      },
+      "inputs": {
+        "nixpkgs": {
+          "from": {
+            "owner": "NixOS",
+            "ref": "release-23.11",
+            "repo": "nixpkgs",
+            "type": "github"
+          },
+          "subtrees": [
+            "legacyPackages"
+          ]
+        }
+      },
+      "priority": [
+        "nixpkgs"
+      ]
+    },
+    "vars": {}
+  },
+  "packages": {
+    "aarch64-linux": {
+      "clang": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-linux",
+          "clang"
+        ],
+        "info": {
+          "broken": false,
+          "description": "A C language family frontend for LLVM (wrapper script)",
+          "license": "NCSA",
+          "pname": "clang-wrapper",
+          "unfree": false,
+          "version": "16.0.6"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1706373441,
+            "narHash": "sha256-S1hbgNbVYhuY2L05OANWqmRzj4cElcbLuIkXTb69xkk=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "56911ef3403a9318b7621ce745f5452fb9ef6867",
+            "type": "github"
+          },
+          "fingerprint": "9ce412a538ee7fd762345747a283a88dd226c8e9aef8fbd18cda4a0d501444a7",
+          "url": "github:NixOS/nixpkgs/56911ef3403a9318b7621ce745f5452fb9ef6867"
+        },
+        "priority": 5
+      },
+      "diesel-cli": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-linux",
+          "diesel-cli"
+        ],
+        "info": {
+          "broken": false,
+          "description": "Database tool for working with Rust projects that use Diesel",
+          "license": null,
+          "pname": "diesel-cli",
+          "unfree": false,
+          "version": "2.1.1"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1706373441,
+            "narHash": "sha256-S1hbgNbVYhuY2L05OANWqmRzj4cElcbLuIkXTb69xkk=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "56911ef3403a9318b7621ce745f5452fb9ef6867",
+            "type": "github"
+          },
+          "fingerprint": "9ce412a538ee7fd762345747a283a88dd226c8e9aef8fbd18cda4a0d501444a7",
+          "url": "github:NixOS/nixpkgs/56911ef3403a9318b7621ce745f5452fb9ef6867"
+        },
+        "priority": 5
+      },
+      "diesel-cli-ext": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-linux",
+          "diesel-cli-ext"
+        ],
+        "info": {
+          "broken": false,
+          "description": "Provides different tools for projects using the diesel_cli",
+          "license": null,
+          "pname": "diesel-cli-ext",
+          "unfree": false,
+          "version": "0.3.13"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1706373441,
+            "narHash": "sha256-S1hbgNbVYhuY2L05OANWqmRzj4cElcbLuIkXTb69xkk=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "56911ef3403a9318b7621ce745f5452fb9ef6867",
+            "type": "github"
+          },
+          "fingerprint": "9ce412a538ee7fd762345747a283a88dd226c8e9aef8fbd18cda4a0d501444a7",
+          "url": "github:NixOS/nixpkgs/56911ef3403a9318b7621ce745f5452fb9ef6867"
+        },
+        "priority": 5
+      },
+      "sqlite": {
+        "attr-path": [
+          "legacyPackages",
+          "aarch64-linux",
+          "sqlite"
+        ],
+        "info": {
+          "broken": false,
+          "description": "A self-contained, serverless, zero-configuration, transactional SQL database engine",
+          "license": null,
+          "pname": "sqlite",
+          "unfree": false,
+          "version": "3.43.2"
+        },
+        "input": {
+          "attrs": {
+            "lastModified": 1706373441,
+            "narHash": "sha256-S1hbgNbVYhuY2L05OANWqmRzj4cElcbLuIkXTb69xkk=",
+            "owner": "NixOS",
+            "repo": "nixpkgs",
+            "rev": "56911ef3403a9318b7621ce745f5452fb9ef6867",
+            "type": "github"
+          },
+          "fingerprint": "9ce412a538ee7fd762345747a283a88dd226c8e9aef8fbd18cda4a0d501444a7",
+          "url": "github:NixOS/nixpkgs/56911ef3403a9318b7621ce745f5452fb9ef6867"
+        },
+        "priority": 5
+      }
+    }
+  },
+  "registry": {
+    "defaults": {
+      "subtrees": null
+    },
+    "inputs": {
+      "nixpkgs": {
+        "from": {
+          "lastModified": 1706373441,
+          "narHash": "sha256-S1hbgNbVYhuY2L05OANWqmRzj4cElcbLuIkXTb69xkk=",
+          "owner": "NixOS",
+          "repo": "nixpkgs",
+          "rev": "56911ef3403a9318b7621ce745f5452fb9ef6867",
+          "type": "github"
+        },
+        "subtrees": [
+          "legacyPackages"
+        ]
+      }
+    },
+    "priority": [
+      "nixpkgs"
+    ]
+  }
+}
